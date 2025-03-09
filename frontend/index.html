@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Voting dApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Decentralized Voting</h1>
+        <input type="text" id="nameInput" placeholder="Enter your name">
+        <button class="labour" onclick="addVote()">Vote</button>
+        <h2>All Votes</h2>
+        <ul id="voteList"></ul>
+    </div>
+    <script src="node_modules/web3/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
