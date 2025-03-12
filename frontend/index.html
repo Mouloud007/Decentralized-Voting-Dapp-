@@ -9,12 +9,17 @@
 <body>
     <div class="container">
         <h1>Decentralized Voting</h1>
+        <!-- Input field for entering a name to vote -->
         <input type="text" id="nameInput" placeholder="Enter your name">
+        <!-- Button to add a vote, calls the addVote function -->
         <button class="labour" onclick="addVote()">Vote</button>
         <h2>All Votes</h2>
+        <!-- Unordered list to display all votes -->
         <ul id="voteList"></ul>
     </div>
+    <!-- Include Web3.js library -->
     <script src="node_modules/web3/dist/web3.min.js"></script>
+    <!-- Include the app.js script -->
     <script src="app.js"></script>
 </body>
 </html>
