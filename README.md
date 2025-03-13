@@ -4,7 +4,6 @@ This is a simple decentralized voting application built with Solidity, Hardhat, 
 
 ![Voting dApp Screenshot](https://github.com/Mouloud007/Decentralized-Voting-Dapp-/blob/main/voting%20dapp.png)
 
-
 This is a simple decentralized voting application built with Solidity, Hardhat, and a frontend using Web3.js. The application allows users to add votes and like existing votes on the Ethereum blockchain.
 
 ## Features
@@ -32,6 +31,12 @@ cd Decentralized-Voting-Dapp
 
 ```sh
 npm install
+```
+
+If Web3.js is not installed, install it manually:
+
+```sh
+npm install web3
 ```
 
 ### 3. Compile and Deploy the Smart Contract
@@ -82,5 +87,6 @@ You should now be able to interact with your decentralized voting application. Y
 - `hardhat.config.js`: Hardhat configuration file
 
 ## License
+
 
 This project is licensed under the MIT License.
