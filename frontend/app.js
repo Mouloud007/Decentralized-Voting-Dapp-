@@ -2,7 +2,7 @@
 const web3 = new Web3(window.ethereum);
 
 // Address of the deployed Voting contract
-const contractAddress = "0x073D57f090eC844e9e103C302e1a2BcaD7f0A92f";
+const contractAddress = "";
 
 // ABI (Application Binary Interface) of the Voting contract
 const contractABI = [
