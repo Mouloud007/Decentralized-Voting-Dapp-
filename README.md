@@ -1,6 +1,6 @@
-# Decentralized Voting dApp
+# BlockChain Votting Application for Module CN6035
 
-This is a simple decentralized voting application built with Solidity, Hardhat, and a frontend using Web3.js. The application allows users to add votes and like existing votes on the Ethereum blockchain.
+This is a decentralized voting application built with Solidity, Hardhat, and a frontend using Web3.js. The application allows users to add votes and like existing votes on the Ethereum blockchain.
 
 ![Voting dApp Screenshot](https://github.com/Mouloud007/Decentralized-Voting-Dapp-/blob/main/ScreenTwo.png)
 
