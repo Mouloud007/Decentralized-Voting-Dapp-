@@ -8,7 +8,9 @@ This is a simple decentralized voting application built with Solidity, Hardhat, 
 
 - Add a new vote with a given name
 - Like a vote at a given index
+- delete votes
 - Retrieve and display all votes
+  
 
 ## Prerequisites
 
