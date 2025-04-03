@@ -26,6 +26,16 @@ contract Voting {
         votes[_index].likes += 1;
     }
 
+    // Function to delete a vote at a given index
+    function deleteVote(uint256 _index) public {
+        // Ensure the provided index is valid
+        require(_index < votes.length, "Invalid vote index");
+        // Replace the vote to be deleted with the last vote in the array
+        votes[_index] = votes[votes.length - 1];
+        // Remove the last vote from the array
+        votes.pop();
+    }
+
     // Function to retrieve all votes
     function getAllVotes() public view returns (Vote[] memory) {
         // Return the entire votes array

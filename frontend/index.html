@@ -3,23 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Voting dApp</title>
+    <title> BlockChain Votting Application By Mouloud El guellab 2164302 CN6035</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM8b+z4+2e5c7e5a5e5a5e5a5e5a5e5a5e5a5" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="container">
-        <h1>Decentralized Voting</h1>
-        <!-- Input field for entering a name to vote -->
-        <input type="text" id="nameInput" placeholder="Enter your name">
-        <!-- Button to add a vote, calls the addVote function -->
+        <h1>CN 6035 </h1>
+        <h1>BlochChain Votting Application By Mouloud El guellab </h1>
+        <h2>Student Number 2164302</h2>
+        <p>Welcome to the Blockchain Voting Application! an easy to use interface :) you just need to input the name 
+        of the candidate you want to vote for and click the vote button. The application will handle the rest.</p>
+        <p>Note: Make sure you have MetaMask installed and connected to the correct network.</p>
+        </p>
+        <input type="text" id="nameInput" placeholder="Enter the name of the candidate" required>
         <button class="labour" onclick="addVote()">Vote</button>
         <h2>All Votes</h2>
-        <!-- Unordered list to display all votes -->
         <ul id="voteList"></ul>
     </div>
-    <!-- Include Web3.js library -->
     <script src="node_modules/web3/dist/web3.min.js"></script>
-    <!-- Include the app.js script -->
     <script src="app.js"></script>
 </body>
 </html>

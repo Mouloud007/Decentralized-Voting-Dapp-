@@ -16,15 +16,31 @@ body {
 }
 
 h1 {
-    color: #6041e9;
-    font-size: 2.5em;
-    margin-bottom: 20px;
+    color: #6041e9; /* Purple from your original */
+    font-size: 2.2em; /* Slightly smaller for multiple h1s */
+    margin: 10px 0; /* Tighter spacing between h1s */
+    font-weight: 700; /* Bold for emphasis */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    line-height: 1.2; /* Better spacing */
 }
 
 h2 {
-    color: #555;
+    color: #2f265a;
     font-size: 1.8em;
     margin-top: 30px;
+}
+
+p {
+    color: #333; /* Darker gray for readability */
+    font-size: 1.1em; /* Slightly larger for clarity */
+    line-height: 1.6; /* Better spacing between lines */
+    margin: 15px 0; /* Consistent spacing */
+    padding: 10px; /* Inner padding for comfort */
+    background: rgba(245, 245, 245, 0.8); /* Light gray background */
+    border-radius: 5px; /* Rounded corners like container */
+    max-width: 600px; /* Keep it readable */
+    margin-left: auto;
+    margin-right: auto; /* Center it like the list */
 }
 
 input {
@@ -73,6 +89,23 @@ button.conservative {
 
 button.conservative:hover {
     background-color: #0d47a1;
+    transform: scale(1.05);
+}
+
+button.danger {
+    margin: 5px;
+    padding: 8px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #e53935;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button.danger:hover {
+    background-color: #b71c1c;
     transform: scale(1.05);
 }
 
