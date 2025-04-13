@@ -83,3 +83,4 @@ You should now be able to interact with your decentralized voting application. Y
 ## License
 
 This project is licensed under the MIT License.
+
