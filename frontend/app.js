@@ -11,7 +11,7 @@ if (typeof window.ethereum !== "undefined") {
 
 // Contract details
 // Replace this with the address of your deployed smart contract
-const contractAddress = "0xe0c9542170a070F92aC869B4f5301B694459FCfb"; // New deployment
+const contractAddress = "when you deploy the contract put the private key here"; //  deployment
 
 // ABI (Application Binary Interface) defines the structure of the smart contract's functions and events
 const contractABI = [
